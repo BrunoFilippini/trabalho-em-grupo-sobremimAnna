@@ -1,0 +1,60 @@
+.cardContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardContainer h2{
+  margin: 1rem;
+}
+
+html,body  
+ {  
+   margin: 0;  
+   padding: 0;  
+   align-items: center;  
+   justify-content: center;  
+   height: 100%;  
+   background: #fff;  
+ }  
+ .container  
+ {  
+   display: flex;  
+   justify-content: center;  
+   align-items: center;  
+   height: 100%;  
+ }  
+ .btn  
+ {  
+   width: 100px;  
+   height: 100px;  
+   background-color: #fafafa;  
+   display: flex;  
+   align-items: center;  
+   justify-content: center;  
+   margin-left: 2em;  
+   margin-right: 1em;  
+   cursor: pointer;  
+   transition: all 0.3s;  
+   border-radius: 10px;  
+ }  
+ i.fa  
+ {  
+   font-size: 44px;  
+ }  
+ #fb  
+ {  
+   color: #c910ee;  
+   text-shadow: 0 0 30px #006fff;  
+ }  
+ 
+ .btn.fbBtn  
+ {  
+   box-shadow: 0 20px 20px -17px rgba(0,111,255,0.53);  
+ }  
+ .btn.fbBtn:hover  
+ {  
+   transform: scale(1.2);  
+   box-shadow: 0 30px 45px -15px rgba(0,111,255,0.65);  
+ }
